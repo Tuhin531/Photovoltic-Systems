@@ -1,0 +1,169 @@
+/* Header Styles */
+.dwt-header {
+  background: #a9bac5;
+  padding: 5px 5px;
+  
+}
+
+.dwt-nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  
+  
+}
+
+.dwt-nav-list li {
+  text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.dwt-nav-list li:last-child {
+  margin-right: 0;
+}
+
+.dwt-nav-list a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  color: #000;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 20px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    position: relative;
+}
+
+.dwt-nav-list a:hover {
+  background-color: #ddd;
+}
+
+/* Main Content Styles */
+.dwt-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 125vh;
+}
+
+.dwt-section {
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #bed5f7;
+}
+
+.dwt-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dwt-form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dwt-form label span {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.dwt-form input[type="text"],
+.dwt-form input[type="number"],
+.dwt-form input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.dwt-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dwt-form button:hover {
+  background-color: #23527c;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+}
+
+
+.projects-header {
+  background: #a9bac5;
+  padding: 5px 5px;
+}
+
+.projects-nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.projects-nav-list li {
+  text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.projects-nav-list li:last-child {
+  margin-right: 0;
+}
+
+.projects-nav-list a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.projects-nav-list a:hover {
+  background-color: #ddd;
+}
+
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.projects-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #bed5f7;
+}
+
+.projects-form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.projects-form label span {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.projects-footer {
+  /* Footer styles */
+}

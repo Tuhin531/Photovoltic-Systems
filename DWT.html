@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photovoltaic System</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Include custom CSS file -->
+</head>
+<body>
+
+  <header class="dwt-header">
+    <ul class="dwt-nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a class="projects-link" href="#">Projects</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </header>
+  
+  
+  <main class="dwt-main">
+    <h1>Photovoltaic System</h1>
+
+    <section id="registration-section" class="dwt-section">
+      <h2>Registration</h2>
+      <form id="registration-form" class="dwt-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </br>
+        <button id="register-button">Register</button>
+      </form>
+    </section>
+
+    <section id="login-section" class="dwt-section">
+      <h2>Login</h2>
+      <form id="login-form" class="dwt-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </br>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <!-- Include other sections and forms for project management, visual map, report generation, etc. -->
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Photovoltaic System Calculator. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
